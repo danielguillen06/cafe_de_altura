@@ -2,21 +2,3 @@
     margin: 0px;
     padding: 0px;
 }
-header{
-    background-color: #2B2A2B;
-}
-
-.cofee{
-    width: 186px;
-    height: 36px;
-
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23.4628px;
-    line-height: 35px;
-
-    color: #FFFFFF;
-
-    opacity: 0.86;
-}
