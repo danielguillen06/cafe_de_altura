@@ -2,3 +2,24 @@
     margin: 0px;
     padding: 0px;
 }
+
+header{
+    padding: 12px 40px;
+    background: #2B2A2B;
+    height: 64px
+}
+
+.headerLogo{
+    width: 213.86px;
+    height: 36px;
+
+    align-items: center;
+
+}
+
+.headerLink{
+    width: 512px;
+    height: 32px;
+    
+    align-items: flex-start;
+}
