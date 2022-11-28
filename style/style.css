@@ -131,7 +131,7 @@ header{
 
 .box{
     display: flex; 
-    align-items: center;
+    flex-direction: row;
     margin-top: 24px;
 }
 
@@ -159,7 +159,10 @@ header{
 }
 .box1{
     width: 316px;
-    height: 232px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 24px;
     border-radius: 8px;
     border: 1px solid #F7F5F3;
@@ -170,7 +173,10 @@ header{
 }
 .box2{
     width: 316px;
-    height: 232px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 24px;
     border-radius: 8px;
     border: 1px solid #F7F5F3;
@@ -181,7 +187,10 @@ header{
 
 .box3{
     width: 316px;
-    height: 232px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 24px;
     border-radius: 8px;
     border: 1px solid #F7F5F3;
@@ -202,30 +211,271 @@ header{
 
 .boxProductos{
     display: flex; 
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
 }
 
 .coffeGreen{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid #E3DED7;
     border-radius: 8px;
-    align-items: center;
     padding: 24px;
+    margin-right: 24px;
+}
+
+.coffeGreen img{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.añadirGreen{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    margin-top: 24px;
 }
 
 .coffeRed{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid #E3DED7;
     border-radius: 8px;
-    align-items: center;
     padding: 24px;  
+    margin-right: 24px;
+}
+
+.coffeRed img{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.coffeRed p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.coffeRed p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.añadirRed {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    margin-top: 24px;
 }
 
 .coffeMilitarGreen{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid #E3DED7;
     border-radius: 8px;
-    align-items: center;
     padding: 24px;
+    margin-right: 24px;
 }
 
+.coffeMilitarGreen img{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.coffeMilitarGreen p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.añadirMilitarGreen{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.coffePurple{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    padding: 24px;
+    margin-right: 24px;
+}
+
+.coffePurple img{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.coffePurple p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.añadirPurple{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.verTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.verTodo a{
+    font-size: 14px;
+    color: #000000;
+    margin-right: 19px;
+}
+
+.verTodo img{
+    color: #000000;
+}
+
+.questionsAndAnswer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 386px;
+    background: #2A5B45;
+}
+
+.questionsAndAnswer h2{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.boxPreguntas{
+    width: 668px;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.pregunta1{
+    width: 668px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.pregunta1_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid black;
+    padding-bottom: 15px;
+}
+
+.pregunta2{
+    width: 668px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top:16px ;
+}
+.pregunta2_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.05px solid black;
+    padding-bottom: 15px;
+}
+
+.pregunta3{
+    width: 668px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top:16px ;
+}
+
+.ResolvemosTusDudas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.ResolvemosTusDudas a{
+    font-family: 'Outfit';
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 19px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.content2{
+    width: 588px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content2 h2{
+    color: #2A5B45;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.content2 p{
+    color: #111827;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.ComoLlegar a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 19px;
+}
+
+.coffeShop{
+    border-radius: 20px;
+    border: none;
+    margin: 44.61px 40px 45.39px 24px;
+}
