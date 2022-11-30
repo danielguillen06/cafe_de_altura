@@ -23,6 +23,7 @@ header {
 }
 
 .headerLogo {
+    font-weight: 400;
     font-size: 23.4628px;
     color: #FFFFFF;
     display: flex;
@@ -61,6 +62,8 @@ header {
     color: #FFFFFF;
     padding: 12px 24px;
 }
+ 
+/********* seecion two ************/
 
 .container {
     display: flex;
@@ -70,7 +73,7 @@ header {
 
 .content {
     text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-        0px -4px 10px rgba(255, 255, 255, 0.3);
+        0px -1px 2px rgba(255, 255, 255, 0.3);
 }
 
 .content h3 {
@@ -97,7 +100,6 @@ header {
     margin: 48px 40px;
     box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
         0px -4px 10px rgba(255, 255, 255, 0.3);
-    ;
 
 }
 
@@ -114,6 +116,8 @@ header {
     background: #2A5B45;
 }
 
+
+/********** seccion three **************/
 .information {
     padding: 48px 147px;
     background-image: url(../assets/cafeDeFondo.jpeg);
@@ -123,6 +127,7 @@ header {
 
 .tittle h2 {
     text-align: center;
+    font-weight: 500;
     font-size: 24px;
     color: #FFFFFF;
 }
@@ -171,6 +176,8 @@ header {
 
 }
 
+
+/********** seccion ford ************/
 .Novedades {
     background: #FFFFFF;
     padding: 40px;
@@ -178,6 +185,7 @@ header {
 
 .Novedades h2 {
     text-align: center;
+    font-weight: 600;
     font-size: 24px;
     color: #2A5B45;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -202,6 +210,10 @@ header {
     margin-right: 24px;
 }
 
+.coffe:hover{
+    background-color:#F7F5F3;
+}
+
 .coffe img {
     display: flex;
     margin-bottom: 24px;
@@ -211,7 +223,7 @@ header {
     color: #FFFFFF;
     font-size: 14px;
     padding: 8px;
-    background: rgba(42, 91, 69, 0.7);
+    background: rgba(89, 45, 41, 0.7);
     border-radius: 4px;
     border-style: none;
     margin-top: 24px;
@@ -232,6 +244,7 @@ header {
 
 .verTodo a {
     font-size: 14px;
+    font-weight: 600;
     color: #000000;
     margin-right: 19px;
 }
@@ -240,6 +253,8 @@ header {
     color: #000000;
 }
 
+
+/***************  seccion five  *************/
 .questionsAndAnswer {
     display: flex;
     flex-direction: column;
@@ -300,16 +315,18 @@ header {
 }
 
 .ResolvemosTusDudas a {
-    font-family: 'Outfit';
+    font-weight: 500;
     font-size: 14px;
     color: #FFFFFF;
     margin-right: 19px;
 }
 
+
+/*************** seccion six ************/
 .container2 {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 37px;
 }
 
 .content2 {
@@ -320,6 +337,7 @@ header {
 
 .content2 h2 {
     color: #2A5B45;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 16px;
 }
@@ -340,16 +358,17 @@ header {
 .coffeShop {
     border-radius: 20px;
     border: none;
-    margin: 44.61px 40px 45.39px 24px;
+    margin: 44.61px 20px 45.39px 13px;
 }
 
+
+/***************** seccion seven ************/
 .formulario {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: #E3DED7;
-
 }
 
 .info_formulario {
@@ -374,12 +393,6 @@ header {
     margin-bottom: 12px;
 }
 
-.info p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #6B7280;
-}
-
 .info1_2 {
     margin-top: 32px;
     margin-bottom: 24px;
@@ -397,8 +410,29 @@ header {
 
 .info1_4 {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.hermano {
+    margin-bottom: 15px;
+}
+
+.info1_4 p{
+   margin-left: 0.7rem; 
+}
+
+.info1_5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px;
+}
+.info1_5 a {
+    font-weight: 630;
+    color:#000000;
 }
 
 .form {
@@ -407,6 +441,7 @@ header {
     padding: 32px 32px 32px 48px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right:40px;
 }
 
 .formu1 {
@@ -432,7 +467,8 @@ header {
 }
 
 .formu1 textarea {
-    height: 120px;
+    width: 97%;
+    height: 122px;
     font-weight: 400;
     font-size: 12px;
     color: #374151;
@@ -447,4 +483,14 @@ header {
     font-size: 14px;
     color: #374151;
     margin-bottom: 28px;
+}
+
+.Aceptar {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 12px 24px;
+    background: #2A5B45;
+    border-radius: 4px;
+    border-style: none;
+    width: 30%;
 }
