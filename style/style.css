@@ -494,3 +494,26 @@ header {
     border-style: none;
     width: 30%;
 }
+
+footer{
+    background: #1F1815;
+}
+
+.footerLogo img{
+    display: flex;
+}
+
+.footerLogo{
+    font-weight: 400;
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+footer h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
