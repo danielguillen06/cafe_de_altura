@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/styleCesta.css">
+    <title>Cesta de Compras</title>
+</head>
+
+<body>
+    <header>
+        <!-- header logo -->
+        <div class="headerLogo">
+            <a href="">cafedealtura.com</a>
+            <img src="../assets/coffe.png" alt="logo de cafe">
+        </div>
+
+        <!-- header link -->
+        <nav class="headerLink">
+            <a href="../index.html" target="_blank">Home</a>
+            <a href="">Supcripcion</a>
+            <a href="">Para empresas</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <!-- header Contact -->
+        <div class="headerContact">
+            <img src="../assets/call.png" alt="logo de call">
+            <p>+34 919 49 05 18</p>
+            <button class="inicioSesion">Inicia Sesion</button>
+        </div>
+
+        <!--Header logo2-->
+        <div class="headerLogo2">
+            <a href="./pages/cesta.html"><img src="../assets/bolsito.png" alt="logo de bolsito"></a>
+        </div>
+    </header>
+
+    <!-----------------Section Uno ---------------------->
+    <section class="Cesta">
+        <h2>Cesta</h2>
+        <div class="tablaCompleta">
+
+            <!--Tabla de eleccion de prodcutos -->
+            <div class="tablaPoductos">
+                <h3>Productos</h3>
+
+                <!-- Producto 1 -->
+                <div class="producto1">
+                    <div class="counter">
+                        <button class="botonNegativo"> <img src="../assets/negativo.png"
+                                alt="logo de negativo"></button>
+                        <span class="contador">0</span>
+                        <button class="botonPositivo"> <img src="../assets/positivo.png"
+                                alt="logo de positivo"></button>
+                    </div>
+
+                    <!-- Producto escogido -->
+                    <div class="cafeEscogido">
+                        <img src="../assets/coffe red.png" alt="cafe rojo">
+                    </div>
+
+                    <!-- Detalles del producto -->
+                    <div class="detalles">
+                        <p> Colombia Los Naranjos</p>
+                        <p>Paquete de cafe de 250 gr</p>
+                    </div>
+
+                    <!-- Precio del Producto -->
+                    <div class="precio">
+                        <p>9,00 €</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Producto 2 -->
+                <div class="producto1">
+                    <div class="counter">
+                        <button class="botonNegativo"> <img src="../assets/negativo.png"
+                                alt="logo de negativo"></button>
+                        <span class="contador">0</span>
+                        <button class="botonPositivo"> <img src="../assets/positivo.png"
+                                alt="logo de positivo"></button>
+                    </div>
+
+                    <!-- Producto escogido -->
+                    <div class="cafeEscogido">
+                        <img src="../assets/coffe red.png" alt="cafe rojo">
+                    </div>
+
+                    <!-- Detalles del producto -->
+                    <div class="detalles">
+                        <p> Colombia Los Naranjos</p>
+                        <p>Paquete de cafe de 250 gr</p>
+                    </div>
+
+                    <!-- Precio del Producto -->
+                    <div class="precio">
+                        <p>9,00 €</p>
+                    </div>
+                </div>
+
+                <h3>Seleccionar Envio</h3>
+
+                <!--Tipo de envio -->
+                <div class="envioGratis">
+                    <input class="check" type="radio">
+
+                    <div class="detallesEenvio">
+                        <p>Envío 5-7 días</p>
+                        <p>Opción estándar sin seguimiento</p>
+                    </div>
+
+                    <div class="precioEnvio">
+                        <p>Gratis</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="envioUrgente">
+                    <input class="check" type="radio">
+
+                    <div class="detallesEenvio">
+                        <p>Envío Urgente en 24h</p>
+                        <p>Recibe tu Pedido en la siguientes 24h(Para pedidos realizados antes de las 13:00)</p>
+                    </div>
+
+                    <div class="precioEnvio2">
+                        <p>9,00 €</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Tabla de compra -->
+            <div class="infoCompra">
+                <h3>Total del Carrito</h3>
+
+                <hr>
+
+                <div class="subtotal">
+                    <p>SUBTOTAL</p>
+                    <p>18,00 €</p>
+                </div>
+
+                <div class="envio">
+                    <p>ENVIO</p>
+                    <p>Gratis</p>
+                </div>
+
+                <hr>
+                <div class="total">
+                    <p>TOTAL</p>
+                    <P>18,00 €</P>
+                </div>
+                <div class="botones">
+                    <button class="irCheckout"><a href="" target="_blank"> Ir a Checkout </a></button>
+                    <a class="tienda" href="./tienda.html" target="_blank">Seguir Comprando </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-----------------------Pie de pagina---------------------------->
+    <div class="pieDePagina">
+        <p>Todos los derechos reservados - Café de Altura SL - 2022
+        </p>
+    </div>
+</body>
+
+</html>

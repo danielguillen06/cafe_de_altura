@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    max-width: 1280px;
+}
+
+/*******************HEADER******************/
+header {
+    justify-content: space-between;
+    padding: 0 40px;
+    background: #2B2A2B;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.headerLogo img {
+    display: flex;
+}
+
+.headerLogo {
+    font-weight: 400;
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.headerLogo a{
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerLink {
+    display: flex;
+    gap: 32px;
+}
+
+.headerLink a {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerLink a:hover{
+    padding: 1px;
+    cursor: pointer;
+}
+
+.headerContact {
+    margin-right: 1.5rem;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.headerContact p {
+    margin: 0 11px;
+}
+
+.inicioSesion {
+    background: #515051;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-left: 15px;
+}
+.inicioSesion:hover{
+    background-color:#6e6c6e;
+    cursor: pointer;
+}
+
+/**************************section one***************/
+.ultimoOrigenes {
+    background: #FFFFFF;
+    padding: 40px;
+}
+
+.ultimoOrigenes h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2A5B45;
+}
+
+.boxesPoductos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+    gap : 5px;
+}
+
+.boxesPoductos:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: row;
+    margin-top: 25px;
+    gap : 5px;
+}
+
+.coffe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    padding: 28px;
+    margin-right: 24px;
+}
+
+.coffe:hover {
+    background-color: #F7F5F3;
+    cursor: pointer;
+}
+
+.coffe img {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.añadir {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px;
+    background:#2A5B45B2;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 24px;
+}
+
+.añadir:hover{
+    background-color: #2A5B45;
+    cursor: pointer;
+}
+
+.coffe p:nth-of-type(1) {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/**********************seccion dos*********************/
+.information {
+    padding: 80px 147px;
+    background-image: url(../assets/cafeDeFondo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tittle h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+.box h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #2B2A2B;
+    margin: auto;
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+    color: #2B2A2B;
+    margin: auto;
+}
+
+.box img {
+    display: flex;
+    margin: auto;
+    background: #2A5B45;
+    border-radius: 20px;
+    border: none;
+    padding: 14px;
+}
+
+.box1 {
+    width: 316px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #F7F5F3;
+    margin-right: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(227, 222, 215, 0.8);
+
+}
+
+/******************** Footer *******************/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1F1815;
+    align-items: center;
+    padding: 28.61px 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footerLogo img {
+    display: flex;
+}
+
+.footerLogo {
+    font-weight: 400;
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+footer h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    background-color: #515051;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.footerButton:hover{
+    background-color: #6e6c6e;
+    cursor: pointer;
+}
+.footerLink {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 232px;
+    height: 105px;
+}
+.footerLink2{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 232px;
+    height: 105px;
+}
+
+/****************************PIE DE PAGINA******************/
+.pieDePagina{
+    font-size: 14px;
+    padding: 12px;
+    color: #FFFFFF;
+    background-color: #2B2A2B;
+    text-align: center;
+}

@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    max-width: 1280px;
+}
+
+/*******************HEADER*+****************/
+header {
+    justify-content: space-between;
+    padding: 0 40px;
+    background: #2B2A2B;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.headerLogo img {
+    display: flex;
+}
+
+.headerLogo {
+    font-weight: 400;
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.headerLogo a {
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerLink {
+    display: flex;
+    gap: 32px;
+}
+
+.headerLink a {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerLink a:hover {
+    padding: 1px;
+    cursor: pointer;
+}
+
+.headerContact {
+    margin-right: 1.5rem;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.headerContact p {
+    margin: 0 11px;
+}
+
+.inicioSesion {
+    background: #515051;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-left: 15px;
+}
+
+.inicioSesion:hover {
+    background-color: #6e6c6e;
+    cursor: pointer;
+}
+
+/**************************Section Uno***************/
+.Cesta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+.Cesta h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2A5B45;
+    margin-bottom: 24px;
+}
+
+/****************************Tabla******************/
+.tablaCompleta {
+    display: flex;
+    justify-items: center;
+}
+
+.tablaPoductos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoCompra {
+    display: flex;
+    flex-direction: column;
+    height: 247px;
+    padding: 24px;
+    gap: 16px;
+    margin-left: 50px;
+    background: #F7F5F3;
+}
+
+.infoCompra h3 {
+    font-size: 18px;
+    font-weight: 24px;
+}
+
+.tablaPoductos h3 {
+    font-size: 18px;
+    font-weight: 24px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+/**************************Productos***********************/
+.producto1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.botonNegativo {
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: 10px;
+}
+
+.botonNegativo:hover {
+    cursor: pointer;
+}
+
+.botonPositivo {
+    background-color: #FFFFFF;
+    border: none;
+    gap: 2px;
+    margin-left: 10px;
+}
+
+.botonPositivo:hover {
+    cursor: pointer;
+}
+
+.contador {
+    padding: 8px;
+    background-color: rgba(42, 91, 69, 0.1);
+    border-radius: 200px;
+}
+
+.cafeEscogido img {
+    width: 55.66px;
+    height: 55.66px;
+}
+
+.producto1:nth-of-type(2) {
+    margin-top: 15px;
+}
+
+.precio {
+    margin-left: 310px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/****************************TIPO DE ENVIO ******************/
+.envioGratis {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.precioEnvio {
+    margin-left: 446px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.envioUrgente {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.precioEnvio2 {
+    margin-left: 153px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*************************tabla compra************************/
+.subtotal {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-size: 14px;
+}
+
+.envio {
+    display: flex;
+    flex-direction: row;
+    gap: 235px;
+    font-size: 14px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    gap: 229px;
+    font-size: 14px;
+}
+
+.botones {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+
+.irCheckout {
+    padding: 12px 24px;
+    background: #2A5B45;
+    border-radius: 4px;
+}
+
+.irCheckout a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tienda {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/****************************PIE DE PAGINA******************/
+.pieDePagina {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding: 12px;
+    color: #FFFFFF;
+    background-color: #2B2A2B;
+    text-align: center;
+}

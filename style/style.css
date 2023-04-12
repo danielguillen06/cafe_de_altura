@@ -5,7 +5,8 @@
 }
 
 body {
-    width: 1280px;
+    max-width: 1280px;
+
 }
 
 header {
@@ -15,8 +16,9 @@ header {
     height: 64px;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 45px;
 }
+
 
 .headerLogo img {
     display: flex;
@@ -30,6 +32,12 @@ header {
     align-items: center;
     gap: 8px;
 }
+.headerLogo a{
+    font-size: 23.4628px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 
 .headerLink {
     display: flex;
@@ -37,9 +45,14 @@ header {
 }
 
 .headerLink a {
-    font-size: 14px;
+    font-size: 15px;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.headerLink a:hover{
+    padding: 1px;
+    cursor: pointer;
 }
 
 .headerContact {
@@ -61,8 +74,13 @@ header {
     border: none;
     color: #FFFFFF;
     padding: 12px 24px;
+    margin-left: 15px;
 }
- 
+.inicioSesion:hover{
+    background-color:#6e6c6e;
+    cursor: pointer;
+}
+
 /********* seecion two ************/
 
 .container {
@@ -116,10 +134,14 @@ header {
     background: #2A5B45;
 }
 
+.bottom:hover{
+    background: rgb(0, 86, 0);
+    cursor: pointer;
+}
 
 /********** seccion three **************/
 .information {
-    padding: 48px 147px;
+    padding: 80px 147px;
     background-image: url(../assets/cafeDeFondo.jpeg);
     background-position: center;
     background-size: cover;
@@ -197,6 +219,7 @@ header {
     align-items: center;
     flex-direction: row;
     margin-top: 40px;
+    gap : 9px;
 }
 
 .coffe {
@@ -210,8 +233,9 @@ header {
     margin-right: 24px;
 }
 
-.coffe:hover{
-    background-color:#F7F5F3;
+.coffe:hover {
+    background-color: #F7F5F3;
+    cursor: pointer;
 }
 
 .coffe img {
@@ -223,10 +247,15 @@ header {
     color: #FFFFFF;
     font-size: 14px;
     padding: 8px;
-    background: rgba(89, 45, 41, 0.7);
+    background:#2A5B45B2;
     border-radius: 4px;
     border-style: none;
     margin-top: 24px;
+}
+
+.añadir:hover{
+    background-color: #2A5B45;
+    cursor: pointer;
 }
 
 .coffe p:nth-of-type(1) {
@@ -276,7 +305,7 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 60px;
 }
 
 .Preguntas {
@@ -290,14 +319,18 @@ header {
     margin-top: 16px;
 }
 
+.linea{
+    border-bottom: 0.1px solid black;
+}
+
 .pregunta {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1px solid black;
     padding-bottom: 15px;
 }
+
 
 .pregunta3 {
     width: 100%;
@@ -312,6 +345,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 28px;
+    margin-bottom: 30px ;
 }
 
 .ResolvemosTusDudas a {
@@ -322,30 +356,32 @@ header {
 }
 
 
-/*************** seccion six ************/
+/********************** seccion six ******************/
 .container2 {
     display: flex;
     align-items: center;
-    margin-left: 37px;
+    margin-left: 10px;
 }
 
 .content2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 25px;
 }
 
 .content2 h2 {
     color: #2A5B45;
     font-weight: 600;
     font-size: 24px;
-    margin-bottom: 16px;
+   
 }
 
 .content2 p {
     color: #111827;
     font-size: 14px;
     margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .ComoLlegar a {
@@ -375,15 +411,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    margin-left: 38px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 80px;
 }
 
 .info h3 {
@@ -420,19 +455,20 @@ header {
     margin-bottom: 15px;
 }
 
-.info1_4 p{
-   margin-left: 0.7rem; 
+.info1_4 p {
+    margin-left: 0.7rem;
 }
 
-.info1_5{
+.info1_5 {
     font-weight: 400;
     font-size: 14px;
     color: #6B7280;
     margin-top: 24px;
 }
+
 .info1_5 a {
     font-weight: 630;
-    color:#000000;
+    color: #000000;
 }
 
 .form {
@@ -441,7 +477,7 @@ header {
     padding: 32px 32px 32px 48px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-right:40px;
+    margin-right: 40px;
 }
 
 .formu1 {
@@ -454,7 +490,7 @@ header {
 
 .formu1 label {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     color: #374151;
 }
 
@@ -470,7 +506,7 @@ header {
     width: 97%;
     height: 122px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     color: #374151;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     background: #FFFFFF;
@@ -478,7 +514,7 @@ header {
     border: 1px solid #D1D5DB;
 }
 
-.formu1_2{
+.formu1_2 {
     font-weight: 400;
     font-size: 14px;
     color: #374151;
@@ -495,25 +531,85 @@ header {
     width: 30%;
 }
 
-footer{
-    background: #1F1815;
+.Aceptar:hover{
+    background-color: rgb(0, 86, 0);
+    cursor: pointer;
 }
 
-.footerLogo img{
+/******************** Footer *******************/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1F1815;
+    align-items: center;
+    padding: 28.61px 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footerLogo img {
     display: flex;
 }
 
-.footerLogo{
+.footerLogo {
     font-weight: 400;
     font-size: 23.4628px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    gap: 8px;
+    margin-bottom: 15px;
 }
 
-footer h3{
+footer h3 {
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.footerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    background-color: #515051;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.footerButton:hover{
+    background-color: #6e6c6e;
+    cursor: pointer;
+}
+.footerLink {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 232px;
+    height: 105px;
+}
+.footerLink2{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 232px;
+    height: 105px;
+}
+
+/****************************PIE DE PAGINA*******/
+.pieDePagina{
+    font-size: 14px;
+    padding: 12px;
+    color: #FFFFFF;
+    background-color: #2B2A2B;
+    text-align: center;
 }

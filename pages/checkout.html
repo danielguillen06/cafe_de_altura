@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/styleCheckout.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header>
+        <!-- header logo -->
+        <div class="headerLogo">
+            <a href="">cafedealtura.com</a>
+            <img src="../assets/coffe.png" alt="logo de cafe">
+        </div>
+
+        <!-- header link -->
+        <nav class="headerLink">
+            <a href="../index.html" target="_blank">Home</a>
+            <a href="">Supcripcion</a>
+            <a href="">Para empresas</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <!-- header Contact -->
+        <div class="headerContact">
+            <img src="../assets/call.png" alt="logo de call">
+            <p>+34 919 49 05 18</p>
+            <button class="inicioSesion">Inicia Sesion</button>
+        </div>
+
+        <!--Header logo2-->
+        <div class="headerLogo2">
+            <a href="./pages/cesta.html" target="_blank"><img src="../assets/bolsito.png" alt="logo de bolsito"></a>
+        </div>
+    </header>
+
+    <section class="checkout">
+        <h2>Checkout</h2>
+        <!------------CONTENEDOR PINCIPAL-------------------->
+        <div class="contenedorPrincipal">
+
+            <!----------FORMULARIO METODO DE PAGO---------------->
+            <div class="formularioPago">
+                <h3>Seleccionar Metodo de Pago</h3>
+
+                <form action="">
+                    <div class="metodoPago">
+                        <input type="checkbox" id="seleccionarPago">
+                        <label for="seleccionar">Tarjeta de débito</label>
+                    </div>
+                    <div class="datos">
+                        <label for="nombre">Nombre del Titular</label>
+                        <input type="text" id="nameTitular" name="name">
+
+                        <label for="numero">Numero de la Tarjeta</label>
+                        <input type="text" id="numeroTarjeta" name="tarjeta">
+
+                        <div class="datosTarjeta">
+                            <label for="fecha">Fecha de caducidad</label>
+                            <input type="date" id="caducidad">
+                            <label for="ccv">CCV</label>
+                            <input type="text" id="ccv">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="TranferenciaBanco">
+                        <input type="checkbox" id="cuentaBancaria">
+                        <label for="nombre">Transferencia bancaria a la cuenta ES12 1234 1234 123457890 </label>
+                    </div>
+
+                    <hr>
+
+                    <div class="bizum">
+                        <input type="checkbox" id="bizum">
+                        <label for="nombre">Bizum<img src="../assets/bizum.png" alt="logoBizum"></label>
+                    </div>
+                </form>
+            </div>
+
+            <!--------------FORMULARIO DATOS DE LA PERSONA------------->
+            <div class="datosPersona">
+
+                <h3>Direccion de Envio</h3>
+
+                <form action="">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="nombre">Apellidos:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="phone">Telefono:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="pais">Pais:</label>
+                    <select name="pais" id="pais" required>
+                        <option>seleccionar</option>
+                        <option>España</option>
+                        <option>Francia</option>
+                        <option>Alemania</option>
+                        <option>Mexico</option>
+                        <option>Venezuela</option>
+                        <option>Colombia</option>
+                    </select>
+
+                    <div class="ciudad">
+                        <label for="poblacion">Poblacion</label>
+                        <input type="text" id="poblacion">
+
+                        <label for="codigoPostal">CP</label>
+                        <input type="text" id="codigoPostal">
+                    </div>
+
+                    <div class="direccionVivienda">
+                        <label for="calle">Calle</label>
+                        <input type="text" id="">
+
+                        <label for="numeroCalle">Nº</label>
+                        <input type="text" id="">
+
+                        <label for="pisoVivienda">Piso</label>
+                        <input type="text" id="">
+
+                        <label for="puertaVivienda">Puerta</label>
+                        <input type="text" id="">
+                    </div>
+                </form>
+            </div>
+
+           <!-------------TABLA DE COMPRA--------------->
+           <div class="infoCompra">
+            <h3>Total del Carrito</h3>
+
+            <hr>
+
+            <div class="subtotal">
+                <p>SUBTOTAL</p>
+                <p>18,00 €</p>
+            </div>
+
+            <div class="envio">
+                <p>ENVIO</p>
+                <p>Gratis</p>
+            </div>
+
+            <hr>
+            <div class="total">
+                <p>TOTAL</p>
+                <P>18,00 €</P>
+            </div>
+            <div class="botonPagar">
+                <button class="pagar"><a href="" target="_blank">Pagar y Realizar Envio </a></button>
+                
+            </div>
+        </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
