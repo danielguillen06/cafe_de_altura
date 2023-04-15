@@ -16,7 +16,7 @@ header {
     height: 64px;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 39px;
 }
 
 .headerLogo img {
@@ -50,7 +50,7 @@ header {
 }
 
 .headerLink a:hover {
-    padding: 1px;
+    padding: 0.5px;
     cursor: pointer;
 }
 
@@ -149,16 +149,21 @@ header {
 .producto1 {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 25px;
     align-items: center;
     margin-bottom: 15px;
     font-size: 14px;
 }
 
+.counter{
+    display: flex;
+    justify-content: center;
+}
+
 .botonNegativo {
     background-color: #FFFFFF;
     border: none;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .botonNegativo:hover {
@@ -169,7 +174,7 @@ header {
     background-color: #FFFFFF;
     border: none;
     gap: 2px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .botonPositivo:hover {
@@ -177,7 +182,8 @@ header {
 }
 
 .contador {
-    padding: 8px;
+    visibility: hidden;
+    padding: 6px;
     background-color: rgba(42, 91, 69, 0.1);
     border-radius: 200px;
 }
@@ -192,7 +198,7 @@ header {
 }
 
 .precio {
-    margin-left: 310px;
+    margin-left: 290px;
     font-weight: 600;
     font-size: 18px;
 }
@@ -201,14 +207,14 @@ header {
 .envioGratis {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 22px;
     align-items: center;
     margin-bottom: 15px;
     font-size: 14px;
 }
 
 .precioEnvio {
-    margin-left: 446px;
+    margin-left: 410px;
     font-weight: 600;
     font-size: 18px;
 }
@@ -216,7 +222,7 @@ header {
 .envioUrgente {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 25px;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -224,7 +230,7 @@ header {
 }
 
 .precioEnvio2 {
-    margin-left: 153px;
+    margin-left: 110px;
     font-weight: 600;
     font-size: 18px;
 }
@@ -233,21 +239,21 @@ header {
 .subtotal {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 178px;
     font-size: 14px;
 }
 
 .envio {
     display: flex;
     flex-direction: row;
-    gap: 235px;
+    gap: 208px;
     font-size: 14px;
 }
 
 .total {
     display: flex;
     flex-direction: row;
-    gap: 229px;
+    gap: 205px;
     font-size: 14px;
 }
 
@@ -265,6 +271,10 @@ header {
     border-radius: 4px;
 }
 
+.irCheckout:hover{
+    background-color:#204404;
+    cursor: pointer;
+}
 .irCheckout a {
     color: #FFFFFF;
     text-decoration: none;

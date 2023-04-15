@@ -23,8 +23,8 @@ const arrayProductos = [];
 // id de cada producto
 const id = () => {
     const chars = '0123456789abcdefghijklmnopqrstuvwxyz';
-    let result = ''; 
-    for (let i = 0; i <=9; i++) {
+    let result = '';
+    for (let i = 0; i <= 9; i++) {
         result += chars[Math.floor(Math.random() * chars.length - 1)];
     }
     return result
@@ -37,16 +37,19 @@ const id = () => {
 //             result = id;
 //         }
 //         return result;
-//     }
+// }
+
+// /*declaramos nuestra variable count */
 let count = 0;
+const bolsitoContador = document.querySelector(".headerLogo2 > .contador");
+/*realizamos las acciones para nuestra tienda y contador */
 divProductos.forEach(añadir => {
     const boton = añadir.lastElementChild;
-    
+
     boton.addEventListener("click", (event) => {
         const infoProdcutos = event.target.parentNode.children;
         const index = arrayProductos.findIndex(e => e.name == infoProdcutos[1].innerText)
-        const bolsitoContador = document.querySelector(".headerLogo2 > .contador");  
-    
+        const bolsitoContador = document.querySelector(".headerLogo2 > .contador");
         if (index == -1) {
             const objProductos = {
                 name: infoProdcutos[1].innerText,
@@ -57,59 +60,28 @@ divProductos.forEach(añadir => {
             };
             arrayProductos.push(objProductos);
             count++;
-             bolsitoContador.innerText= count;
+            bolsitoContador.innerText = count;
         } else {
             count++;
             arrayProductos[index].cantidad++;
             bolsitoContador.innerText = count;
         }
 
-        console.log(arrayProductos);
+        
         console.log(bolsitoContador);
-
         localStorage.setItem("productosAgregados", JSON.stringify(arrayProductos));
-      
 
-         
+        /* senetencia donde mostramos el contador en nuestro bolsito*/
+        if (count !== 0) {
+            bolsitoContador.style.visibility = "visible";
+        }else{
+            bolsitoContador.style.visibility = "hidden";
+        }
+
     });
-    
 });
 
-if(count > 0){
-    bolsitoContador.visibility = "visible";
-   
-}else{
-    bolsitoContador.visibility = "hidden";
-}
 
-
-
-//incrementamos de uno en uno y decrementamos de uno en uno.*/
-
-// const spanCounter = document.getElementById("counter");
-// const div = document.getElementById("counter-btns");
-// const botonMas = div.firstElementChild;
-// const botonMenos = div.lastElementChild;
-
-// botonMas.addEventListener("click", function (){
-//     spanCounter.innerText = parseInt(spanCounter.innerText) + 1;
-//  });
-
-//  botonMenos.addEventListener("click", function (){
-//     spanCounter.innerText = parseInt(spanCounter.innerText) - 1;
-//  });
-
-/*3 desaparecemos y aparecemos el texto*/
-// const parrafo = document.querySelector("#ejercicio-3 > p");
-// const botonDelete = document.querySelector("#ejercicio-3 > button")
-
-// botonDelete.addEventListener("click", function () {
-//     if (parrafo.style.visibility !== "hidden") {
-//         parrafo.style.visibility = "hidden";
-//     } else { 
-//         parrafo.style.visibility = "visible"
-//     }
-// });
 
 
 

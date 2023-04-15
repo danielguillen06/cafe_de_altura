@@ -16,7 +16,7 @@ header {
     height: 64px;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 39px;
 }
 
 
@@ -51,7 +51,7 @@ header {
 }
 
 .headerLink a:hover{
-    padding: 1px;
+    padding: 0.5px;
     cursor: pointer;
 }
 
